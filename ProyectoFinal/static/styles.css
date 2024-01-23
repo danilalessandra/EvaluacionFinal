@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: row; /* Cambiado a fila para ubicar los botones en línea */
+    align-items: center;
+}
+
+.menu-button1 {
+    background-color: purple;
+    color: white;
+    padding: 25px; /* Ajustado para hacerlo un poco más grande */
+    height: 120px; /* Ajustado para hacerlo más alto */
+    margin: 5px;
+    border: none;
+    border-radius: 0; /* Cambiado para hacerlo cuadrado */
+    cursor: pointer;
+}
+
+.menu-button2 {
+    background-color: lime; /* Cambiado a un tono de verde similar al de una manzana */
+    color: white;
+    padding: 25px; /* Ajustado para hacerlo un poco más grande */
+    height: 120px; /* Ajustado para hacerlo más alto */
+    margin: 5px;
+    border: none;
+    border-radius: 0; /* Cambiado para hacerlo cuadrado */
+    cursor: pointer;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    transition: height 0.3s ease; /* Transición suave en la altura */
+}
+
+form.expandido {
+    height: 350px; /* Ajusta la altura según tus necesidades */
+}
+
+form h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF; /* Cambiado a azul */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3; /* Cambiado a un tono más oscuro de azul al pasar el ratón */
+}
+
+.resultado {
+    margin-top: 30px;
+}
+
+.resultado p {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
